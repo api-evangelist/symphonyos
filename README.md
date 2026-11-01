@@ -64,5 +64,136 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-SymphonyOS is a company surfaced via the API Evangelist harvest backlog (source: music) and added to the network as a stub for full-pipeline profiling.
-- https://symphony.to/
+SymphonyOS is an AI‑powered music‑industry platform that provides a suite of autonomous agents to manage every aspect of music release and promotion. Founded in 2016, it combines data‑driven marketing, royalty accounting, fan engagement, and creative campaign tools into a single service, enabling artists and labels to focus on creation while the platform handles distribution, advertising, and business operations. With a growing roster of specialized agents, SymphonyOS aims to streamline the complex workflow of modern music production and monetization.
+
+**Areas:** Company · Artificial Intelligence · Music · Platform · Agents
+
+## SymphonyOS on APIs.io
+
+Everything profiled for SymphonyOS is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/symphonyos/](https://apis.io/providers/symphonyos/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [SymphonyOS API](https://apis.io/apis/symphonyos/symphonyos-api-2/) — API for SymphonyOS platform, documented at https://symphonyos.co/docs
+- [SymphonyOS Campaigns API](https://apis.io/apis/symphonyos/symphonyos-campaigns-api/) — The Campaigns API from SymphonyOS — 2 operation(s) for campaigns.
+- [SymphonyOS Sym API](https://apis.io/apis/symphonyos/symphonyos-sym-api/) — The Sym API from SymphonyOS — 3 operation(s) for sym.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Symphonyos Webhooks](https://apis.io/asyncapis/symphonyos/symphonyos-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [DeleteApiSymV2Webhooks3Response](https://apis.io/schemas/symphonyos/symphonyos-delete-api-sym-v2-webhooks3-response/)
+- [GetApiSymV2V2IdResponse](https://apis.io/schemas/symphonyos/symphonyos-get-api-sym-v2-v2-id-response/)
+- [GetCampaignsCampaignidResponse](https://apis.io/schemas/symphonyos/symphonyos-get-campaigns-campaignid-response/)
+- [PostApiSymV2WebhooksRequest](https://apis.io/schemas/symphonyos/symphonyos-post-api-sym-v2-webhooks-request/)
+- [PostApiSymV2WebhooksResponse](https://apis.io/schemas/symphonyos/symphonyos-post-api-sym-v2-webhooks-response/)
+- [PutApiSymV2Webhooks3Response](https://apis.io/schemas/symphonyos/symphonyos-put-api-sym-v2-webhooks3-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Symphonyos Context](https://apis.io/jsonld/symphonyos/symphonyos-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SymphonyOS API Rules](https://apis.io/rules/symphonyos/symphonyos-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Symphonyos Authentication](https://apis.io/security/symphonyos/symphonyos-authentication/)
+- [Symphonyos Domain Security](https://apis.io/security/symphonyos/symphonyos-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Symphonyos Plans Pricing](https://apis.io/plans/symphonyos/symphonyos-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Symphonyos Rate Limits](https://apis.io/rate-limits/symphonyos/symphonyos-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://symphonyos.co/)
+- [Documentation](https://symphonyos.co/docs)
+- [Getting started](https://docs.symphonyos.co/docs/getting-started)
+- [API reference](https://symphonyos.co/docs)
+- [Pricing](https://symphonyos.co/pricing)
+- [Changelog](https://symphonyos.co/changelog)
+- [Terms of service](https://symphonyos.co/terms-of-service)
+- [Privacy policy](https://symphonyos.co/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 46.1** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.7 |
+| Contract quality | 31.9 |
+| Contract governance | 22.0 |
+| Operational transparency | 55.3 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 63.2 |
+
+**Agent readiness 46.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/symphonyos/](https://apis.io/providers/symphonyos/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SymphonyOS: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/symphonyos/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
